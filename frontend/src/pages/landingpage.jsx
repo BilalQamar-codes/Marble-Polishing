@@ -9,6 +9,7 @@ import TilePolishing from "../components/TilePolishing.jsx";
 import MarblePolishing from "../components/MarblePolishing.jsx";
 import PorcelainPolishing from "../components/ProclainPolishing.jsx";
 import CeramicPolishing from "../components/CeramicPolishing.jsx";
+import whatsappIcon from "../assets/icons8-whatsapp-32.png"; // Replace with your WhatsApp icon path
 
 export default function LandingPage() {
   const videos = [vedio1, vedio2, vedio3];
@@ -73,6 +74,17 @@ export default function LandingPage() {
         </div>
       </div>
       <Footer />
+      <a
+        href="https://wa.me/966507787108" // Replace with your WhatsApp number
+        className="whatsapp-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src= {whatsappIcon}// Replace with your WhatsApp icon path
+          alt="WhatsApp"
+        />
+      </a>
     </div>
   );
 }
