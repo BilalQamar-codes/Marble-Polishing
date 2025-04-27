@@ -1,10 +1,17 @@
 import './App.css';
+import LandingPage from './Components/landingpage'; // Ensure correct case for component names
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          {/* Add more routes here if needed */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
