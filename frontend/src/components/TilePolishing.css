@@ -1,0 +1,23 @@
+.tile-polishing {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .section-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #212d45;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: yellow;
+    padding: 10px 0;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
