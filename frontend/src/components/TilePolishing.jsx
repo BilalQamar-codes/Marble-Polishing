@@ -13,39 +13,39 @@ const TilePolishing = () => {
   const services = [
     {
       image: cleaningHomeTiles,
-      title: "Cleaning home tiles",
-      buttonText: "WHATSAPP",
+      title: "تنظيف البلاط",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: plasterCleaning,
-      title: "Plaster cleaning",
-      buttonText: "WHATSAPP",
+      title: "تنظيف الجص",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: tilePolishing,
-      title: "Tile polishing",
-      buttonText: "WHATSAPP",
+      title: "تلميع البلاط",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: tileSeal,
-      title: "Tile seal",
-      buttonText: "WHATSAPP",
+      title: "ختم البلاط",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: tileRepairs,
-      title: "Tile repairs",
-      buttonText: "WHATSAPP",
+      title: "إصلاح البلاط",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
   ];
 
   return (
     <div className="tile-polishing">
-      <h1 className="section-title">Tile polishing</h1>
+      <h1 className="section-title">تلميع البلاط</h1>
       <div className="card-grid">
         {services.map((service, index) => (
           <Card

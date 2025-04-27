@@ -9,43 +9,43 @@ import tilePolishing from "../assets/landing_page_image.jpg";
 import tileSeal from "../assets/landing_page_image.jpg";
 import tileRepairs from "../assets/landing_page_image.jpg";
 
-const TilePolishing = () => {
+const ProcelainPolishing = () => {
   const services = [
     {
       image: cleaningHomeTiles,
-      title: "Procelain surface preparation",
-      buttonText: "WHATSAPP",
+      title: "تحضير سطح البورسلين",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: plasterCleaning,
-      title: "Procelain cleaning",
-      buttonText: "WHATSAPP",
+      title: "تنظيف البورسلين",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: tilePolishing,
-      title: "Procelain polishing",
-      buttonText: "WHATSAPP",
+      title: "تلميع البورسلين",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: tileSeal,
-      title: "Procelain seal",
-      buttonText: "WHATSAPP",
+      title: "ختم البورسلين",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
     {
       image: tileRepairs,
-      title: "Final inspection of procelain",
-      buttonText: "WHATSAPP",
+      title: "فحص نهائي للبورسلين",
+      buttonText: "واتساب",
       buttonLink: "https://wa.me/966507787108",
     },
   ];
 
   return (
     <div className="tile-polishing">
-      <h1 className="section-title">Procelain polishing</h1>
+      <h1 className="section-title">تلميع البورسلين</h1>
       <div className="card-grid">
         {services.map((service, index) => (
           <Card
@@ -61,4 +61,4 @@ const TilePolishing = () => {
   );
 };
 
-export default TilePolishing;
+export default ProcelainPolishing;
