@@ -1,16 +1,18 @@
-import LandingPage from './pages/landingpage'; // Ensure correct case for component names
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import Footer from './Components/footer.jsx';
+import Card from './Components/Card.jsx';
+import landingPageImage from './assets/landing_page_image.jpg';
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          {/* Add more routes here if needed */}
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <Card
+        image={landingPageImage}
+        title="Marble Polishing"
+        buttonText="Whatsapp"
+        buttonLink="https://example.com/marble-polishing"
+      />
+      <Footer />
+    </div>
   );
 }
 
