@@ -1,6 +1,6 @@
 
-import Footer from './Components/footer.jsx';
-import Card from './Components/Card.jsx';
+import Footer from './components/footer.jsx';
+import Card from './components/Card.jsx';
 import landingPageImage from './assets/landing_page_image.jpg';
 function App() {
   return (

@@ -3,11 +3,11 @@ import "./TilePolishing.css"; // Import the CSS file for styling
 import Card from "./Card"; // Import the Card component
 
 // Images for the cards
-import cleaningHomeTiles from "../assets/landing_page_image.jpg";
-import plasterCleaning from "../assets/landing_page_image.jpg";
-import tilePolishing from "../assets/landing_page_image.jpg";
-import tileSeal from "../assets/landing_page_image.jpg";
-import tileRepairs from "../assets/landing_page_image.jpg";
+import cleaningHomeTiles from "../assets/marble.jpeg";
+import plasterCleaning from "../assets/marble_polishing.jpeg";
+import tilePolishing from "../assets/marble_grinding.jpeg";
+import tileSeal from "../assets/marble_seal.jpeg";
+import tileRepairs from "../assets/marble_repairing.jpeg";
 
 const MarblePolishing = () => {
   const services = [
