@@ -5,10 +5,10 @@
   }
   
   .contact-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #212d45;
-    margin-bottom: 5%;
+    margin-bottom: 20px;
   }
   
   .contact-container {
@@ -21,33 +21,23 @@
   
   .contact-info {
     flex: 1;
-    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
     text-align: left;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 30vh;
   }
   
   .contact-info p {
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #555;
     margin: 10px 0;
   }
   
-  .appointment-button {
-    background-color: #ffc107;
-    color: #212d45;
-    font-size: 1rem;
+  .contact-heading {
+    display: block; /* Make the <strong> text appear on a new line */
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .appointment-button:hover {
-    background-color: #e0a800;
+    color: #212d45;
+    margin-bottom: 5px;
   }
   
   .contact-map {

@@ -1,113 +1,118 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-  }
-  
-  .background {
-    background-image: url('../assets/landing_page_image.jpg'); /* Replace with your image path */
-    background-size: cover; /* Ensure the image covers the entire div */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    height: 150vh; /* Set the height of the background div */
-    width: 100%; /* Ensure it spans the full width */
-    padding: 2%;
-    box-sizing: border-box; /* Include padding in the width calculation */
-    max-width: 100vw; /* Prevent the background from exceeding the viewport width */
-  }
-  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.background {
+  background-image: url('../assets/landing_page_image.png'); /* Replace with your image path */
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: auto; /* Allow the height to adjust based on content */
+  min-height: 130vh; /* Ensure it covers the full viewport height */
+  width: 100%; /* Ensure it spans the full width */
+  padding: 2%;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  max-width: 100vw; /* Prevent the background from exceeding the viewport width */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a2940; /* Navbar background color */
+  color: white; /* White text color */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure it spans the full width */
+  z-index: 1000; /* Ensure it stays above other elements */
+  padding: 10px 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  max-width: 100vw; /* Prevent the navbar from exceeding the viewport width */
+  border-radius: 10px;
+}
+
+.navbar-logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white; /* White text color */
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  width: 100%; /* Ensure it doesn't exceed the parent width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.navbar-links li a {
+  color: white; /* White text color */
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #fdd801; /* Yellow color on hover */
+}
+
+hr {
+  border: none;
+  border-top: 2px solid rgba(65, 54, 54, 0.2); /* Subtle line below navbar */
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1a2940; /* Transparent background */
-    color: white; /* White text color */
-    top: 0;
-    left: 0;
-    width: 100%; /* Ensure it spans the full width */
-    z-index: 1000; /* Ensure it stays above other elements */
-    padding: 10px 20px;
-    box-sizing: border-box; /* Include padding in the width calculation */
-    max-width: 100vw; /* Prevent the navbar from exceeding the viewport width */
-    border-radius: 10px;
+    flex-direction: column; /* Stack the navbar items vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 10px;
   }
-  
+
   .navbar-logo a {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white; /* White text color */
-    text-decoration: none;
+    font-size: 1.5rem; /* Reduce logo font size */
   }
-  
+
   .navbar-links {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
-    width: 100%; /* Ensure it doesn't exceed the parent width */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px; /* Add spacing between links */
+    width: 100%; /* Take full width */
+    align-items: flex-start; /* Align links to the left */
   }
-  
+
   .navbar-links li a {
-    color: white; /* White text color */
-    text-decoration: none;
-    font-size: 1.3rem;
-    transition: color 0.3s ease;
+    font-size: 1rem; /* Adjust link font size */
   }
-  
-  .navbar-links li a:hover {
-    color: #fdd801; /* Green color on hover */
+
+  .background {
+    height: auto; /* Allow the height to adjust based on content */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    background-size: 120%; /* Adjust background size for smaller screens */
+    padding: 1%; /* Add padding for smaller screens */
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
-  
-  hr {
-    border: none;
-    border-top: 2px solid rgba(65, 54, 54, 0.2); /* Subtle line below navbar */
-    margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .navbar-logo a {
+    font-size: 1.2rem; /* Further reduce logo font size */
   }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column; /* Stack the navbar items vertically */
-      align-items: flex-start; /* Align items to the left */
-      padding: 10px;
-    }
-  
-    .navbar-logo a {
-      font-size: 1.5rem; /* Reduce logo font size */
-    }
-  
-    .navbar-links {
-      flex-direction: column; /* Stack links vertically */
-      gap: 10px; /* Add spacing between links */
-      width: 100%; /* Take full width */
-      align-items: flex-start; /* Align links to the left */
-    }
-  
-    .navbar-links li a {
-      font-size: 1rem; /* Adjust link font size */
-    }
-  
-    .background {
-      height: 100vh; /* Adjust height for smaller devices */
-      padding: 5%; /* Add padding for smaller screens */
-    }
+
+  .navbar-links li a {
+    font-size: 0.9rem; /* Adjust link font size for very small screens */
   }
-  
-  @media (max-width: 480px) {
-    .navbar-logo a {
-      font-size: 1.2rem; /* Further reduce logo font size */
-    }
-  
-    .navbar-links li a {
-      font-size: 0.9rem; /* Adjust link font size for very small screens */
-    }
-  
-    .background {
-      padding: 10px; /* Add smaller padding for very small screens */
-    }
+
+  .background {
+    padding: 10px; /* Add smaller padding for very small screens */
   }
+}

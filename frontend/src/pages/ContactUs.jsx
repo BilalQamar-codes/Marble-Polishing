@@ -11,9 +11,18 @@ const ContactUs = () => {
         <h1 className="contact-title">تفاصيل الاتصال</h1>
         <div className="contact-container">
           <div className="contact-info">
-            <p><strong>العنوان:</strong> الرياض، المملكة العربية السعودية</p>
-            <p><strong>رقم الهاتف المحمول:</strong> +960 597 272 164</p>
-            <p><strong>البريد الإلكتروني:</strong> info@riyadhmarblepolishing.com</p>
+            <p>
+              <strong className="contact-heading">العنوان:</strong>
+              <span>الرياض، المملكة العربية السعودية</span>
+            </p>
+            <p>
+              <strong className="contact-heading">رقم الهاتف المحمول:</strong>
+              <span>0 597 272 164</span>
+            </p>
+            <p>
+              <strong className="contact-heading">البريد الإلكتروني:</strong>
+              <span>info@riyadhmarblepolishing.com</span>
+            </p>
           </div>
           <div className="contact-map">
             <iframe
