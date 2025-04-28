@@ -1,8 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./footer.css"; // Import the CSS file for styling
 
-
-export default function footer() {
+const Footer = () => {
     return (
         <section class="footer">
             <div class="container tex-center">
