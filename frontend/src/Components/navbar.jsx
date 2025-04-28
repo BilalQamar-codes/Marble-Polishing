@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css'; // Import the CSS file for styling
 
-export default function Navbar() {
+export default function Navbar({ pageName, customStyle }) {
     return (
-        <div className='background'>
+        <div className='background' style={customStyle}>
             <nav className="navbar">
                 <div className="navbar-logo">
                     <Link to="/">تلميع الرخام</Link>
@@ -19,6 +19,7 @@ export default function Navbar() {
                 </ul>
             </nav>
             <hr />
+            <h1 className="page-title">{pageName}</h1>
         </div>
     );
 }

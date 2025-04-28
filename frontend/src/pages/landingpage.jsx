@@ -30,7 +30,7 @@ export default function LandingPage() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar pageName="" />
       <div className="middle">
         <div className="description">
           <h1>جلي بلاط تلميع الرخام تنظيف سراميك بورسلان ریاض</h1>

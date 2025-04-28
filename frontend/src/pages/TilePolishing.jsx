@@ -7,7 +7,7 @@ import TilePolishing from "../components/TilePolishing";
 const TilePolishingPage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar pageName="Tile Polishing"/>
       <TilePolishing />
       <p style={{ padding: "5%" }}>
         في تلميع الرخام ، جلي بلاط نحن متخصصون في تقديم خدمات تنظيف البلاط

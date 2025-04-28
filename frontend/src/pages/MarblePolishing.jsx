@@ -6,7 +6,7 @@ import MarblePolishing from "../components/MarblePolishing";
 const MarblePolishingPage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar pageName="Marbel Polishing" />
       <MarblePolishing />
       <p style={{ padding: "5%" }}>
         تلميع الرخام الروابي متخصص في تجديد روعة الأسطح الرخامية، وتحويل المناطق

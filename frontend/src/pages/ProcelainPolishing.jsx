@@ -6,7 +6,7 @@ import ProcelainPolishing from "../components/ProclainPolishing";
 const ProcelainPolishingPage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar pageName="Porcelain Polishing"/>
       <ProcelainPolishing />
       <p style={{ padding: "5%" }}>
         في روابي لتلميع الرخام، نذهب إلى ما هو أبعد من الرخام لنقدم خدمات تلميع

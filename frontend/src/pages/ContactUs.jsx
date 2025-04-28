@@ -6,7 +6,7 @@ import "../styles/ContactUs.css"; // Import the CSS file for styling
 const ContactUs = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar pageName="Contact Us"/>
       <div className="contact-us">
         <h1 className="contact-title">تفاصيل الاتصال</h1>
         <div className="contact-container">

@@ -6,7 +6,7 @@ import CeramicPolishing from "../components/CeramicPolishing";
 const CeramicPolishingPage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar pageName="Ceramic Polishing"/>
       <CeramicPolishing />
       <p style={{ padding: "5%" }}>
         في روابي لتلميع الرخام، نقوم بتوسيع خبرتنا إلى ما هو أبعد من الرخام
