@@ -15,31 +15,31 @@ const MarblePolishing = () => {
       image: cleaningHomeTiles,
       title: "تنظيف الرخام",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: plasterCleaning,
       title: "تلميع الرخام",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: tilePolishing,
       title: "جلي الرخام",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: tileSeal,
       title: "ختم الرخام",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: tileRepairs,
       title: "إصلاح الرخام",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
   ];
 

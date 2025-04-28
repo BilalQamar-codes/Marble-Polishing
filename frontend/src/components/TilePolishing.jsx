@@ -15,31 +15,31 @@ const TilePolishing = () => {
       image: cleaningHomeTiles,
       title: "تنظيف البلاط",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: plasterCleaning,
       title: "تنظيف الجص",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: tilePolishing,
       title: "تلميع البلاط",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: tileSeal,
       title: "ختم البلاط",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
     {
       image: tileRepairs,
       title: "إصلاح البلاط",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/966507787108",
+      buttonLink: "https://wa.me/960597272164",
     },
   ];
 

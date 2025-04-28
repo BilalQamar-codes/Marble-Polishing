@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <h1>اتصل بنا</h1>
-        <p className="footer-phone">+966 507 787 108</p>
+        <p className="footer-phone">+960 597 272 164</p>
       </div>
       <div className="footer-middle">
         <div className="footer-column">
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="footer-column">
           <h3>Contact Us</h3>
-          <p>+966 507 787 108</p>
+          <p>+960 597 272 164</p>
           <p>Email: info@riyadhmarblepolishing.com</p>
         </div>
       </div>
