@@ -17,7 +17,7 @@ const ContactUs = () => {
             </p>
             <p>
               <strong className="contact-heading">رقم الهاتف المحمول:</strong>
-              <span>0 597 272 164</span>
+              <span>0 509 512 329</span>
             </p>
             <p>
               <strong className="contact-heading">البريد الإلكتروني:</strong>
