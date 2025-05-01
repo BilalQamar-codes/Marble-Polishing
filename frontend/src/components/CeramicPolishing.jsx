@@ -15,31 +15,31 @@ const CeramicPolishing = () => {
       image: cleaningHomeTiles,
       title: "تحضير سطح السيراميك",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: plasterCleaning,
       title: "تنظيف السيراميك",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: tilePolishing,
       title: "تلميع السيراميك",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: tileSeal,
       title: "ختم السيراميك",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: tileRepairs,
       title: "فحص نهائي للسيراميك",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
   ];
 

@@ -15,31 +15,31 @@ const ProcelainPolishing = () => {
       image: cleaningHomeTiles,
       title: "تحضير سطح البورسلين",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: plasterCleaning,
       title: "تنظيف البورسلين",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: tilePolishing,
       title: "تلميع البورسلين",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: tileSeal,
       title: "ختم البورسلين",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
     {
       image: tileRepairs,
       title: "فحص نهائي للبورسلين",
       buttonText: "واتساب",
-      buttonLink: "https://wa.me/960597272164",
+      buttonLink: "https://wa.me/966597272164",
     },
   ];
 

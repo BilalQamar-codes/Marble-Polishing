@@ -75,7 +75,7 @@ export default function LandingPage() {
       </div>
       <Footer />
       <a
-        href="https://wa.me/960509512329" // Replace with your WhatsApp number
+        href="https://wa.me/966509512329" // Replace with your WhatsApp number
         className="whatsapp-button"
         target="_blank"
         rel="noopener noreferrer"
